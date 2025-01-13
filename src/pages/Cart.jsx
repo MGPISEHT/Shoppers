@@ -52,7 +52,7 @@ const Cart = ({ cartItems, setCartItems }) => {
 
     // Load PayPal SDK script
     const script = document.createElement("script");
-    script.src = `https://www.paypal.com/sdk/js?client-id=AfkfEA59DV9179OsB5kuRYFTzdu4Ap7KZTKe9peAbqHH7Q0L5JFJeQcDFKP9qEpvObffMNaTVILlUfqC&currency=USD`;
+    script.src = `https://www.paypal.com/sdk/js?client-id=AfkfEA59DV9179OsB5kuRYFTzdu4Ap7KZTKe9peAbqHH7Q0L5JFJeQcDFKP9qEpvObffMNaTVILlUfqC`;
     script.async = true;
     script.onload = () => initializePayPalButton();
     document.body.appendChild(script);

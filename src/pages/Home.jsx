@@ -10,7 +10,6 @@ import About from "../pages/Abuot";
 const Home = () => {
   return (
     <div className="site-wrap">
-
       <div
         className="site-blocks-cover"
         style={{ backgroundImage: `url(${hero_1})` }}
@@ -147,100 +146,6 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="site-section block-3 site-blocks-2 bg-light">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-md-7 site-section-heading text-center pt-4">
-              <h2>Featured Products</h2>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-md-12">
-              <div className="nonloop-block-3 owl-carousel">
-                <div className="item">
-                  <div className="block-4 text-center">
-                    <figure className="block-4-image">
-                      <img src={cloth_1} alt="Tank Top" className="img-fluid" />
-                    </figure>
-                    <div className="block-4-text p-4">
-                      <h3>
-                        <a href="#">Tank Top</a>
-                      </h3>
-                      <p className="mb-0">Finding perfect t-shirt</p>
-                      <p className="text-primary font-weight-bold">$50</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="block-4 text-center">
-                    <figure className="block-4-image">
-                      <img src={cloth_1} alt="Corater" className="img-fluid" />
-                    </figure>
-                    <div className="block-4-text p-4">
-                      <h3>
-                        <a href="#">Corater</a>
-                      </h3>
-                      <p className="mb-0">Finding perfect products</p>
-                      <p className="text-primary font-weight-bold">$50</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="block-4 text-center">
-                    <figure className="block-4-image">
-                      <img
-                        src={cloth_2}
-                        alt="Polo Shirt"
-                        className="img-fluid"
-                      />
-                    </figure>
-                    <div className="block-4-text p-4">
-                      <h3>
-                        <a href="#">Polo Shirt</a>
-                      </h3>
-                      <p className="mb-0">Finding perfect products</p>
-                      <p className="text-primary font-weight-bold">$50</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="block-4 text-center">
-                    <figure className="block-4-image">
-                      <img
-                        src={cloth_3}
-                        alt="T-Shirt Mockup"
-                        className="img-fluid"
-                      />
-                    </figure>
-                    <div className="block-4-text p-4">
-                      <h3>
-                        <a href="#">T-Shirt Mockup</a>
-                      </h3>
-                      <p className="mb-0">Finding perfect products</p>
-                      <p className="text-primary font-weight-bold">$50</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="block-4 text-center">
-                    <figure className="block-4-image">
-                      <img src={cloth_3} alt="Corater" className="img-fluid" />
-                    </figure>
-                    <div className="block-4-text p-4">
-                      <h3>
-                        <a href="#">Corater</a>
-                      </h3>
-                      <p className="mb-0">Finding perfect products</p>
-                      <p className="text-primary font-weight-bold">$50</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="site-section block-8">
         <div className="container">
           <div className="row justify-content-center mb-5">
@@ -260,10 +165,15 @@ const Home = () => {
             </div>
             <div className="col-md-12 col-lg-5 text-center pl-md-5">
               <h2>
-                <a className="text-decoration-none" href="#">50% off all items</a>
+                <a className="text-decoration-none" href="#">
+                  50% off all items
+                </a>
               </h2>
               <p className="post-meta mb-4">
-                By <a className="text-decoration-none" href="#">Carl Smith</a>{" "}
+                By{" "}
+                <a className="text-decoration-none" href="#">
+                  Carl Smith
+                </a>{" "}
                 <span className="block-8-sep">&bullet;</span> September 3, 2018
               </p>
               <p>

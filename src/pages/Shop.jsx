@@ -16,21 +16,21 @@ const Shop = ({ handleAddToCart }) => {
         return response.json();
       })
       .then((data) => {
-        setProducts(data); // Update state with the fetched products
-        setLoading(false); // Set loading to false once data is loaded
+        setProducts(data);
+        setLoading(false); 
       })
       .catch((error) => {
-        setError(error.message); // Set the error state if something goes wrong
-        setLoading(false); // Set loading to false even if there's an error
+        setError(error.message); 
+        setLoading(false); 
       });
-  }, []); // Empty dependency array means it will only run once (on mount)
+  }, []); 
 
   if (loading) {
-    return <p>Loading products...</p>; // Show loading message while fetching
+    return <p>Loading products...</p>; 
   }
 
   if (error) {
-    return <p>Error: {error}</p>; // Show error message if there's an issue
+    return <p>Error: {error}</p>; 
   }
 
   return (
