@@ -1,12 +1,7 @@
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import hero_1 from "../assets/images/hero_1.jpg";
-import hero_2 from "../assets/images/hero_1.jpg";
-import women from "../assets/images/women.jpg";
-import men from "../assets/images/men.jpg";
-import children from "../assets/images/children.jpg";
-import cloth_1 from "../assets/images/cloth_1.jpg";
-import cloth_2 from "../assets/images/cloth_2.jpg";
-import cloth_3 from "../assets/images/cloth_3.jpg";
+import women from "../assets/images/women.png";
+import men from "../assets/images/men.png";
+import children from "../assets/images/children.png";
 const Abuot = () => {
   return (
     <div>
@@ -15,7 +10,7 @@ const Abuot = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12 mb-0">
-                <a href="/">Home</a> <span className="mx-2 mb-0">/</span>{" "}
+                <a href="/">Home</a> <span className="mx-2 mb-0">/</span>
                 <strong className="text-black">About</strong>
               </div>
             </div>
@@ -29,7 +24,7 @@ const Abuot = () => {
                 <div className="block-16">
                   <figure>
                     <img
-                      src="images/blog_1.jpg"
+                      src={men}
                       alt="Image placeholder"
                       className="img-fluid rounded"
                     />
@@ -77,11 +72,7 @@ const Abuot = () => {
                 <div className="block-38 text-center">
                   <div className="block-38-img">
                     <div className="block-38-header">
-                      <img
-                        src="images/person_1.jpg"
-                        alt="Image placeholder"
-                        className="mb-4"
-                      />
+                      <img src={men} alt="Image placeholder" className="mb-4" />
                       <h3 className="block-38-heading h4">Elizabeth Graham</h3>
                       <p className="block-38-subheading">CEO/Co-Founder</p>
                     </div>
@@ -100,7 +91,7 @@ const Abuot = () => {
                   <div className="block-38-img">
                     <div className="block-38-header">
                       <img
-                        src="images/person_2.jpg"
+                        src={women}
                         alt="Image placeholder"
                         className="mb-4"
                       />
@@ -122,7 +113,7 @@ const Abuot = () => {
                   <div className="block-38-img">
                     <div className="block-38-header">
                       <img
-                        src="images/person_3.jpg"
+                        src={children}
                         alt="Image placeholder"
                         className="mb-4"
                       />
@@ -143,11 +134,7 @@ const Abuot = () => {
                 <div className="block-38 text-center">
                   <div className="block-38-img">
                     <div className="block-38-header">
-                      <img
-                        src="images/person_4.jpg"
-                        alt="Image placeholder"
-                        className="mb-4"
-                      />
+                      <img src={men} alt="Image placeholder" className="mb-4" />
                       <h3 className="block-38-heading h4">Mike Coolbert</h3>
                       <p className="block-38-subheading">Sales Manager</p>
                     </div>

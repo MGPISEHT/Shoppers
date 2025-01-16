@@ -1,11 +1,11 @@
-import hero_1 from "../assets/images/hero_1.jpg";
-import women from "../assets/images/women.jpg";
-import men from "../assets/images/men.jpg";
-import blog_1 from "../assets/images/blog_1.jpg";
-import children from "../assets/images/children.jpg";
-import cloth_1 from "../assets/images/cloth_1.jpg";
-import cloth_2 from "../assets/images/cloth_2.jpg";
-import cloth_3 from "../assets/images/cloth_3.jpg";
+import hero_1 from "../assets/images/hero_11.png";
+import women from "../assets/images/women.png";
+import men from "../assets/images/men.png";
+import blog_1 from "../assets/images/blog_1.png";
+import children from "../assets/images/children.png";
+import cloth_1 from "../assets/images/cloth_1.png";
+import cloth_2 from "../assets/images/cloth_2.png";
+import cloth_3 from "../assets/images/cloth_3.png";
 import About from "../pages/Abuot";
 const Home = () => {
   return (
